@@ -1,0 +1,114 @@
+/* General Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+h1.flex-sm-fill[aria-current="page"]{
+   margin-top: 10px;
+   color: #F5A671;
+   font-size: large;
+}
+
+.nav-link.btn{
+    color: #F5A671;
+    border-radius: 95px;
+}
+
+.nav-link.btn:hover {
+    background-color: #F5E6C2;
+    color: #F5A671;
+    border-radius: 95px;
+    margin-top: 5px;
+}
+
+
+/* Card Styles */
+.card {
+    box-shadow: 8px 4px 8px 4px rgba#F5BD71;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card-body {
+    padding: 10px;
+}
+h1.card-title {
+    font-style:normal;
+    font-weight: bolder;
+    font-size: x-large;
+}
+p.card-text{
+    font-style:normal;
+}
+img.img-fluid {
+    border-radius: 5px;
+    padding: 10px;
+    border-radius: 15px;
+}
+a.btn {
+    color: #F5A671;
+    border-radius: 95px;
+}
+a.btn:hover{
+    background-color: #F5E6C2;
+    color: #F5A671;
+    border-radius: 95px;
+}
+  
+  
+/* Sobre mi section */
+h2.card-title{
+    text-decoration: underline;
+}
+
+
+/* Proyects */
+.pro {
+    padding: 50px;
+    background-position-x: center;
+    box-shadow: 8px 4px 8px 4px rgba#F5BD71;
+    transition: 0.3s;
+    margin-bottom: 20px;
+    border-width: 1PX;
+    border-radius: 5PX;
+}
+
+.pro:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    background-color: #F5E6C2;
+}
+
+#Proyectos{
+    text-decoration: underline;
+}
+
+p.text-pro{
+    text-align: start;
+    text-decoration:underline;
+    color: #ce7800 ;
+}
+
+.btn-pro{
+    background-color: #F5E6C2;
+    border-radius: 95px;
+    color: #F5A671;
+    padding: 10px;
+}
+
+.btn-pro:hover{
+    background-color: #F5A671;
+    color: #F5E6C2;
+    padding: 10px;
+} 
+
